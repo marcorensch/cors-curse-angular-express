@@ -1,0 +1,11 @@
+<p>login works!</p>
+<div>
+  @if (authService.isLoggedIn()) {
+    <button (click)="handleLogoutClicked()">Logout</button>
+  } @else {
+    <button (click)="handleLoginClicked()">Login</button>
+  }
+</div>
+
+
+
